@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "101216227_comp3123_assignment2_reactjs",
   "version": "0.1.0",
   "private": true,
@@ -45,5 +46,46 @@
     "@babel/plugin-transform-nullish-coalescing-operator": "^7.25.9",
     "@babel/preset-env": "^7.26.0",
     "@babel/preset-react": "^7.25.9"
+=======
+  "name": "employee-management-backend",
+  "version": "1.0.0",
+  "description": "A backend API for managing employees and users.",
+  "main": "index.js",
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onatturan/employee-management-backend.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "mongodb",
+    "crud",
+    "api",
+    "backend"
+  ],
+  "author": "Onat Turan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onatturan/employee-management-backend/issues"
+  },
+  "homepage": "https://github.com/onatturan/employee-management-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+>>>>>>> a826287a7e8736fd189ac665d129200a866e21af
   }
 }
