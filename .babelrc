@@ -1,0 +1,11 @@
+{
+    "presets": [
+      "@babel/preset-env",  // Modern JavaScript'i desteklemek için
+      "@babel/preset-react" // React JSX sözdizimini desteklemek için
+    ],
+    "plugins": [
+      "@babel/plugin-transform-nullish-coalescing-operator", // Nullish coalescing (?.) için
+      "@babel/plugin-proposal-optional-chaining"             // Optional chaining (?.) için
+    ]
+  }
+  
